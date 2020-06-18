@@ -1,4 +1,4 @@
-# -*-coding:utf8-*-#
+# -*- coding: utf-8 -*-
 __author__ = 'play4fun'
 """
 create time:15-10-24 下午5:22

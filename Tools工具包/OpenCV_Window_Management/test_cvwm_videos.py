@@ -18,7 +18,7 @@ ret = cap.set(3, 640)
 ret = cap.set(4, 480)
 
 #
-face_cascade = cv2.CascadeClassifier('/usr/local/share/OpenCV/haarcascades/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('../../../1-OpenCV-short-tutorial/detect/haarcascade_frontalface_default.xml')
 
 while cap.isOpened():
     ret, frame = cap.read()

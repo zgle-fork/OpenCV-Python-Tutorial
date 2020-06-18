@@ -53,7 +53,7 @@ class Image(object):
 
 
 if __name__ == '__main__':
-    File = File('images/a.png')
+    File = File('children-draw.png')
     Image = Image(File.open()[0])
     Image.image = Image.grayscale()
     Image.lines()

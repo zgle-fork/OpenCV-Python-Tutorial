@@ -34,8 +34,10 @@ sobel_8u = np.uint8(abs_sobel64f)
 
 plt.subplot(1, 3, 1), plt.imshow(img, cmap='gray')
 plt.title('Original'), plt.xticks([]), plt.yticks([])
+
 plt.subplot(1, 3, 2), plt.imshow(sobelx8u, cmap='gray')
 plt.title('Sobel CV_8U'), plt.xticks([]), plt.yticks([])
+
 plt.subplot(1, 3, 3), plt.imshow(sobel_8u, cmap='gray')
 plt.title('Sobel abs(CV_64F)'), plt.xticks([]), plt.yticks([])
 

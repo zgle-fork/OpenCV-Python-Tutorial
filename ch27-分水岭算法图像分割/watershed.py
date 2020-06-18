@@ -1,4 +1,4 @@
-# -*-coding:utf8-*-#
+# -*- coding: utf-8 -*-
 __author__ = 'play4fun'
 """
 create time:15-10-25 下午12:09
@@ -15,6 +15,8 @@ create time:15-10-25 下午12:09
 每一次灌水 我们的标签就会 更新 当两个不同 色的标签相 时就构建堤 坝 直到将所有山峰淹没 最后我们得到的 界对  堤坝 的值为 -1
 
 """
+import os,sys
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 import numpy as np
 import cv2

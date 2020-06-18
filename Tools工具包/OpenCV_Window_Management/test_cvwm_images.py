@@ -34,6 +34,12 @@ cvwm.add('gray', gray)
 ret, thresh1 = cv2.threshold(gray, 127, 255, cv2.THRESH_BINARY)
 cvwm.add('thresh1', thresh1)
 
+
+# cvwm.add('thresh2', thresh1)
+# cvwm.add('thresh3', thresh1)
+# cvwm.add('thresh4', thresh1)
+
+
 cvwm.show()
 
 cv2.waitKey(0)
